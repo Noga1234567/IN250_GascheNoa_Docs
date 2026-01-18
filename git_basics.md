@@ -23,3 +23,9 @@ git commit -m "Initial commit"
 git push -u origin main
 
 ## Gitignore File
+Das .gitignore-File wurde mit folgendem Befehl erstellt und befüllt:
+"*.log`nGeheimeBankInformationen.txt" | Set-Content -NoNewline .gitignore
+Mit folgenden Befehlen wurden die Änderungen committed und gepusht:
+git add .\.gitignore .\git_basics.md
+git commit -m "Add gitignore"
+git push
