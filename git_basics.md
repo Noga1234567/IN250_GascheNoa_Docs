@@ -64,3 +64,4 @@ Die Datei git_basics.md befand sich bereits im Repository.
 Mit folgenden Befehlen wurde die Datei commited und gepusht:
 git add .\git_basics.md
 git commit -m "Add git basics documentation"
+git push
