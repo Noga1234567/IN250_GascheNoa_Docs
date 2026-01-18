@@ -14,3 +14,12 @@ code .\git_basics.md
 ## Markdown Cheatsheet kopieren & Commit erstellen
 Das Cheatsheet für Markdown wurde mit folgendem Befehl in den aktuellen Pfad kopiert:
 cp ..\cowsay-python\cowsay\markdown_basics.md
+Mit folgendem Befehl wurde überprüft, welche Dateien geändert wurden:
+git status
+Mit folgendem Befehl wurden die geänderten Dateien zum Commit hinzugefügt:
+git add .\markdown_basics.md .\git_basics.md
+Mit folgenden Befehlen wurde der Commit ausgeführt und gepusht:
+git commit -m "Initial commit"
+git push -u origin main
+
+## Gitignore File
